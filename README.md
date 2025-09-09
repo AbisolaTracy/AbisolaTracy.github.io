@@ -14,16 +14,24 @@
 ![] () 
 
 # Project 2:
-
-**Title:**
+**Title:** Customer Insight - Data Manipulation Interrogation
 
 **SQL Code:**
+¡[] ()
 
-**SQL Skills Used:**
+**SQL Skills Used:** 
 
-**Project Description:**
+Data Retrieval (SELECT): Queried and extracted specific information from the database.
 
-**Technology Used:**
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+
+Data Aggregation (SUM, COUNT, AVERAGE): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+
+Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+
+**Project Description:** 
+
+**Technology Used:** SQL Server
 
 
 
