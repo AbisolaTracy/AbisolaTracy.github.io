@@ -16,7 +16,8 @@
 # Project 2:
 **Title:** Customer Insight - Data Manipulation Interrogation
 
-**SQL Code:**
+**SQL Code:** [Customer Insight – SQL Codes] ()
+
 ¡[] ()
 
 **SQL Skills Used:** 
