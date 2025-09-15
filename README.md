@@ -1,7 +1,7 @@
 # Data Analytics Portfolio
 # Project 1:
 
-**Title:** [Workforce Dashboard](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workforce%20.xlsx)
+**Title:** 
 
 **Tools Used:** Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Conditional Formatting,  Power Query Editor) 
 
@@ -18,7 +18,6 @@
   
 **Dashboard Overview:** The Workforce Dashboard provides a comprehensive overview of employee demographics, salary distribution, and departmental performance across multiple locations. This dashboard helps HR teams and management track employee data and optimize workforce planning.
 
-![https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workforce%20Dashboard](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workforce%20Dashboard.png)
 
 # Project 2:
 
