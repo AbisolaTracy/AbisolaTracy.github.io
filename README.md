@@ -156,27 +156,41 @@ Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant da
 
 **SQL Skills Used:** 
 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
-
-Data Aggregation (SUM, COUNT, AVERAGE): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-
-Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+This project showcases a wide range of SQL skills such as:
+* Basic SELECT queries: Retrieving columns with aliases and conditions.
+* Filtering with WHERE: Using operators, ranges (BETWEEN), and comparisons.
+* JOIN operations: Combining data across multiple tables (INNER JOIN, LEFT JOIN).
+* ORDER BY Clause: Sorting results on numeric and string fields.
+* Aggregation logic: Handling grouped conditions such as commission percentages.
+* Cartesian Products: CROSS JOIN to create all possible combinations of salespeople and customers.
+* NULL handling: Identifying customers or salesmen without relationships.
+* Relational reporting: Combining customer, order, and salesman info into professional reports.
 
 **Project Description:** 
 
-**Technology Used:** SQL Server
+This project is a collection of 20 SQL queries designed to practice and demonstrate core database skills using a simple Sales Management System.
+The system consists of three relational tables: 
+* Salesman: Contains details of salespeople, their working city, and commission rates.
+* Customer: Stores information about customers, their assigned salesman, and grade level.
+* Orders: Records orders placed by customers, including order date, purchase amount, and the salesperson involved.
 
+The queries answer real-world business questions such as:
+* Matching customers with their sales representatives.
+* Filtering orders based on conditions (order amount, date, customer grade).
+* Generating reports that combine customer, order, and salesman data.
+* Creating Cartesian products to simulate potential sales assignments.
+* Finding mismatches (e.g., salespeople and customers in different cities).
+This project simulates the kind of SQL problem-solving needed in business intelligence, reporting, and database-driven application development.
 
+**Technology Used:** 
+* Database: Microsoft SQL Server
+* Language: SQL (Structured Query Language)
+* Schema: Sales Management Schema with 3 main tables: salesman, customer, and orders
 
 # Project 7:
 **Title:** Workplace Safety - Data Manipulation Interrogation
 
-**SQL Code:** [Workplace SQL](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workplace%20SQL)
-
-![Workplace](Workplace.png)
-
+**SQL Code:** 
 **SQL Skills Used:** 
 
 Data Retrieval (SELECT): Queried and extracted specific information from the database.
@@ -189,17 +203,13 @@ Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant da
 
 **Project Description:** 
 
-**Technology Used:** SQL Server
+**Technology Used:** 
+
 
 # Project 8:
-**Title:** Workplace Safety - Data Manipulation Interrogation
-
-**SQL Code:** [Workplace SQL](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workplace%20SQL)
-
-![Workplace](Workplace.png)
-
+**Title:** 
+**SQL Code:** 
 **SQL Skills Used:** 
-
 Data Retrieval (SELECT): Queried and extracted specific information from the database.
 
 Data Source Specification (FROM): Specified the tables used as data sources for retrieval
@@ -210,6 +220,6 @@ Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant da
 
 **Project Description:** 
 
-**Technology Used:** SQL Server
+**Technology Used:** 
 
 
