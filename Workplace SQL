@@ -1,0 +1,206 @@
+USE [July_2025_Cohort]
+GO
+
+SELECT [Date]
+      ,[Injury_Location]
+      ,[Gender]
+      ,[Age_Group]
+      ,[Incident_Type]
+      ,[Days_Lost]
+      ,[Plant]
+      ,[Report_Type]
+      ,[Shift]
+      ,[Department]
+      ,[Incident_Cost]
+      ,[WkDay]
+      ,[Month]
+      ,[Year]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+
+GO
+
+  -- 1a	How many incidents occurred at each plant?
+  SELECT plant, COUNT (*) AS [Total Incidents]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Plant];
+
+  -- 1b	How many incidents occurred at each deparment?
+  SELECT [Department], COUNT([Incident_Type]) AS [Total Incidents]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Department];
+
+  -- 2	What is the total incident cost per department?
+  SELECT [Department],SUM (Incident_Cost) AS [Total Incident Cost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Department];
+
+  -- 3a	Which incident type resulted in the highest total days lost?
+  SELECT TOP 1 [Incident_Type], SUM([Days_Lost]) AS [Total Days Lost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Incident_Type]
+  ORDER BY [Total Days Lost] DESC; 
+  
+  -- 3b	Which incident type resulted in the highest number of days lost? 
+  SELECT TOP 1 [Incident_Type], COUNT([Days_Lost]) AS [Total Numbers of Days Lost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Incident_Type]
+  ORDER BY [Total Numbers of Days Lost] DESC;
+
+  --3c What is the numbers of days lost per incident type?
+  SELECT[Incident_Type], COUNT([Days_Lost]) AS [Total Numbers of Days Lost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Incident_Type];
+
+  -- 4	What is the distribution of incident types by shift?
+  SELECT [Shift], [Incident_Type], COUNT(*) AS [Incident Count]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Shift], [Incident_Type]
+  ORDER BY [Shift]ASC;
+
+  -- 5	What is the average incident cost for each injury location?
+  SELECT [Plant], CAST(ROUND(AVG([Incident_Cost]),0) AS INT) AS [Average Incident Costs]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Plant];
+
+  -- 6	Which age group has the highest number of incidents?
+  SELECT TOP 1 [Age_Group], COUNT([Incident_Type]) AS [Incident by Age Group]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Age_Group]
+  ORDER BY [Incident by Age Group] DESC;
+
+  -- 7	How many incidents were reported as 'Lost Time' by each plant?
+  SELECT [Plant], COUNT([Incident_Type]) AS [Incident by Lost Time]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Report_Type]= 'Lost Time'
+  GROUP BY [Plant];
+
+  -- 8	Which department had the highest number of 'Crush & Pinch' incidents?
+  SELECT TOP 1 [Department], COUNT(*) AS [Incident by Crush & Pinch]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Incident_Type]= 'Crush & Pinch'
+  GROUP BY [Department]
+  ORDER BY [Incident by Crush & Pinch] DESC;
+  
+  --9	Which departments had incidents with more than 2 days lost?
+  SELECT DISTINCT [Department]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Days_Lost] > 2;
+
+  --10	What is the average number of days lost per incident type?
+  SELECT Incident_Type, AVG(Days_Lost) AS AvgDaysLost
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY Incident_Type;
+
+  --11	What is the total cost of "Vehicle" related incidents?
+  SELECT SUM([Incident_Cost]) AS [Vehicle Incidents Costs]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Incident_Type]= 'Vehicle';
+
+  --12	Which gender has the most reported incidents?
+  SELECT TOP 1 [Gender], COUNT (*) AS [Gender with Highest Incidents]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Gender]
+  ORDER BY [Gender with Highest Incidents] DESC;
+
+  --13	What is the total cost of incidents per year?
+  SELECT [Year], FORMAT(SUM([Incident_Cost]), 'C0') AS [Incidents Cost per Year]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Year];
+  
+  --14	Which incident resulted in the highest cost?
+  SELECT TOP (1) [Incident_Type], SUM ([Incident_Cost]) AS [Highest Cost Incident]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Incident_Type]
+  ORDER BY [Highest Cost Incident]DESC;
+
+  --15	What is the total cost of incidents for each report type?
+  SELECT [Report_Type], SUM ([Incident_Cost]) AS [Cost per Report Type]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Report_Type];
+
+  --16	Which plants reported the most "Near Miss" incidents?
+  SELECT TOP 1 [Plant], COUNT(*) AS [Near Misses Count]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Report_Type]= 'Near Miss'
+  GROUP BY [Plant]
+  ORDER BY [Near Misses Count] DESC;
+
+  --17	What is the distribution of incidents by shift (Day, Afternoon, Night)?
+  SELECT [Shift], COUNT(*) AS [Total Incidents]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Shift];
+
+  --18	Which months have the highest number of incidents?
+  SELECT TOP 1 [Month], COUNT(*) AS [Highest Incidents by Month]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Month]
+  ORDER BY [Highest Incidents by Month] DESC;
+
+  --19	What is the total number of incidents by year and month?
+  SELECT [Year], [Month], COUNT(*) AS [Total Number of Incidents]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY [Year], [Month]
+  ORDER BY [Year], [Month] ASC;
+
+  --20	Which age group is most affected by "Falling Object" incidents? 
+  SELECT TOP 1 [Age_Group], COUNT([Incident_Type]) AS [Falling Objects Incidents]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Incident_Type]= 'Falling Object'
+  GROUP BY [Age_Group]
+  ORDER BY [Falling Objects Incidents] DESC;
+
+--SQL WILDCARDS
+  SELECT *
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Plant] LIKE '%a';
+
+  SELECT *
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Plant] LIKE 'A%';
+
+  SELECT *
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Department] LIKE '%a%';
+
+  SELECT *
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Plant] LIKE '____';
+
+  SELECT *
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Plant] NOT LIKE '____';
+
+--THE WHERE CLAUSE AND THE HAVING CLAUSE 
+  SELECT [Incident_Type],        
+  SUM ([Incident_Cost]) AS TOTAL_INCIDENT_COST
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  WHERE [Incident_Type] IN ('Burn', 'Cut', 'Fall')
+  GROUP BY (Incident_Type);
+
+  SELECT [Incident_Type],
+  SUM ([Incident_Cost]) AS TOTAL_INCIDENT_COST
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK]
+  GROUP BY (Incident_Type)
+  HAVING [Incident_Type] IN ('Burn', 'Cut', 'Fall');
+
+  --WINDOW FUNCTIONS
+  SELECT *,
+  MAX([Incident_Cost]) OVER () AS [Maximum Cost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK];
+
+  SELECT *,
+  MIN([Incident_Cost]) OVER () AS [Minimum Cost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK];
+
+  SELECT *,
+  MAX([Incident_Cost]) OVER (PARTITION BY [Incident_Type]) AS [Maximum Cost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK];
+
+  SELECT *,
+  MAX([Incident_Cost]) OVER (PARTITION BY [Department]) AS [Maximum Cost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK];
+  Where [Incident_Type]= 'Burn'
+
+  SELECT *,
+  SUM([Incident_Cost]) OVER () AS [Maximum Cost]
+  FROM [dbo].[NEW Workplace Safety Data - SQL TASK];
