@@ -27,7 +27,7 @@
 **Project Description:** This project provides insights into order trends, revenue performance, and customer behavior across states and sales channels. The project enables stakeholders to track business performance and identify opportunities to increase revenue. By combining data analytics, visualization, and design, this project showcase skills that are valuable for roles in data analytics, business intelligence, and reporting.
 
 **Key Insights:**
-* Total Revenue: Highlighted a total revenue of ₹21,441,209 in which female customers contribute ₹13,756,251, significantly higher than male customers at ₹7,684,958.
+* Total Revenue: Highlighted a total revenue of **₹21,441,209** in which female customers contribute **₹13,756,251,** significantly higher than male customers at **₹7,684,958**.
 * Monthly Trends: Analyzed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly. Peak revenue recorded in March, with a gradual decline toward the end of the year. 
 * Top Performing States: Identified the most profitable state and highlighted underperforming states where performance could be improved
       
@@ -38,7 +38,6 @@
     * Conditional formatting for KPI highlights
 * Data Cleaning & Preparation
     * Used Excel formulas and Pivot Tables to structure and prepare raw data for reporting.
-    * Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Conditional Formatting,  Power Query Editor) 
 
 **Charts Used:**
 * Line chart for monthly revenue trends.
@@ -69,7 +68,7 @@
   
 **Project Description:** The goal of this Netflix Insight project was to uncover patterns in Netflix’s catalog, including the distribution of movies and TV shows, the dominance of different genres, the role of producing countries, and the maturity ratings of content. By transforming a large dataset of Netflix titles into an interactive, single-page dashboard, the project provides a clear and engaging way to understand how Netflix curates its global library.
 
-The dashboard was designed with a black-and-red Netflix theme to capture the brand’s identity while presenting the data in a structured, visually appealing format. Easy to scan KPIs, filter by type or genre, and explore content distribution trends to gain actionable insights.
+The dashboard was designed with a **black-and-red Netflix theme** to capture the brand’s identity while presenting the data in a structured, visually appealing format. Easy to scan KPIs, filter by type or genre, and explore content distribution trends to gain actionable insights.
 
 **Key Findings:** 
 * From the insight, Netflix’s library is heavily skewed toward movies, with only a small fraction of TV shows.
