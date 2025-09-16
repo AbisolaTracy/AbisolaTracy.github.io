@@ -1,6 +1,3 @@
-USE [July_2025_Cohort]
-GO
-
 SELECT [Date]
       ,[Injury_Location]
       ,[Gender]
