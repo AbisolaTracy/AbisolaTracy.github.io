@@ -151,19 +151,28 @@ The dashboard focuses on answering critical business questions such as:
 
 ![Workplace](Workplace.png)
 
-**SQL Skills Used:** 
-
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
-
-Data Aggregation (SUM, COUNT, AVERAGE): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-
-Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-
 **Project Description:** 
 
-**Technology Used:** SQL Server
+This project analyzes a dataset of workplace safety incidents recorded across multiple plants, departments, shifts, and employee demographics. Using SQL, I created insightful queries and reports that highlight key safety trends, cost impacts, and workforce risk factors. The main goal of this project is to demonstrate how SQL can be used for workplace safety analytics, helping organizations answer questions like:
+
+* Which departments or plants have the highest number of incidents?
+* What are the most costly or severe incident types?
+* How are incidents distributed across shifts, age groups, and gender?
+* Which areas of the workplace need the most attention to improve safety?
+
+This analysis mimics real-world occupational health & safety reporting, where businesses rely on data to reduce workplace risks and improve safety culture.
+
+**SQL Skills Used:** 
+* Data Retrieval: The use of SELECT clause to query and extract specific information.
+* Data Source Specification (FROM ): Specified the tables used as data sources for retrieval
+* Aggregation & Grouping: Sum, Count of incidents per plant and department, days lost and average costs grouped by incident type.
+* Filtering & Conditions: WHERE clause for conditions such as 'Lost Time', 'Near Miss', 'Falling Object', and the use of BETWEEN, IN, to filter specific results.
+* Sorting & Ranking: ORDER BY to rank incident types, departments, and **TOP 1** to extract the most critical insights (e.g., highest incident cost, department with most crush & pinch injuries).
+* Window Functions: Using OVER (PARTITION BY ...) to calculate max/min costs per incident type or department.
+* Pattern Matching (Wildcards): LIKE, %, and _ operators to search for patterns in plant or department names.
+* HAVING vs WHERE: Difference between filtering grouped data (HAVING) and filtering raw data (WHERE).
+
+**Technology Used:** Microsoft SQL Server
 
 
 # Project 6:
@@ -199,6 +208,7 @@ The queries answer real-world business questions such as:
 * Generating reports that combine customer, order, and salesman data.
 * Creating Cartesian products to simulate potential sales assignments.
 * Finding mismatches (e.g., salespeople and customers in different cities).
+  
 This project simulates the kind of SQL problem-solving needed in business intelligence, reporting, and database-driven application development.
 
 **Technology Used:** 
