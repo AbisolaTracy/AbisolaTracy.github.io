@@ -67,15 +67,22 @@
 * Slicers: For filtering by attributes such as type, genre, rating and title
 * Custom Formatting: Netflix-themed black & red branding
   
-**Project Description:** This project contains an interactive Excel dashboard designed to analyze workforce metrics. The goal of this project is to transform raw datasets into visually appealing and insightful reports that help businesses make data-driven decisions. The project also helps HR teams understand employee demographics, salary trends, and workforce distribution to support strategic decision-making. project's dashboard is designed with a clear structure, incorporating slicers, filters, and dynamic visuals to allow for easy exploration of key performance indicators (KPIs).
+**Project Description:** The goal of this Netflix Insight project was to uncover patterns in Netflix’s catalog, including the distribution of movies and TV shows, the dominance of different genres, the role of producing countries, and the maturity ratings of content. By transforming a large dataset of Netflix titles into an interactive, single-page dashboard, the project provides a clear and engaging way to understand how Netflix curates its global library.
+
+The dashboard was designed with a black-and-red Netflix theme to capture the brand’s identity while presenting the data in a structured, visually appealing format. Easy to scan KPIs, filter by type or genre, and explore content distribution trends to gain actionable insights.
 
 **Key Findings:** 
+* From the insight, Netflix’s library is heavily skewed toward movies, with only a small fraction of TV shows.
+* Uncovered that the United States is the dominant producing country, followed by India and the United Kingdom.
+* Showed that Drama and Comedy titles account for the largest share of genres, reflecting audience demand.
+* Found that TV-MA (Mature Audience) is the most frequent rating, highlighting Netflix’s focus on adult-oriented content.
+* Identified that content additions peak on Fridays, aligning with Netflix’s release strategy to maximize weekend viewing.
+* Tracked year-over-year growth in titles, showing how Netflix steadily expanded its catalog between 2018 and 2021.
   
 **Data Source:** Kaggle
 The dataset contains details of Netflix’s catalog, including titles, genres, directors, release years, ratings, and countries.
   
-**Dashboard Overview:** The Workforce Dashboard provides a comprehensive overview of employee demographics, salary distribution, and departmental performance across multiple locations. This dashboard helps HR teams and management track employee data and optimize workforce planning.
-
+**Dashboard Overview:** The Netflix Dashboard combines Netflix’s catalog into a single, interactive Excel report. The dashboard displays headline KPIs such as total titles, directors, movies, and TV shows. Charts break down content by genre, rating, and producing country etc., making it easy to see which areas dominate the platform. A pie chart highlights the clear turn towards movies over TV shows, while horizontal and vertical bar charts show the most common genres and top producing countries. Finally, trend analysis captures how Netflix’s library has evolved over time, helping users see when most content was added.
 
 ![Netflix](Netflix.png)
 
