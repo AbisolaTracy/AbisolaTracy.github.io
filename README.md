@@ -148,11 +148,11 @@ Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant da
 
 
 # Project 6:
-**Title:** Workplace Safety - Data Manipulation Interrogation
+**Title:** Salesman SQL Project - Data Manipulation Interrogation
 
-**SQL Code:** [Workplace SQL](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workplace%20SQL)
+**SQL Code:** [Salesman SQL Codes](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Salesman%20SQL%20Codes)
 
-![Workplace](Workplace.png)
+![Salesman_Joins_SQL](Salesman_Joins_SQL.png)
 
 **SQL Skills Used:** 
 
