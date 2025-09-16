@@ -105,7 +105,7 @@ The dashboard focuses on answering critical business questions such as:
 * What are the monthly sales trends across the year?
 
 **Key Findings:** 
-* Total Sales: $2,297,201, with $286,397 profit across 37,873 units of products.
+* Total Sales: **$2,297,201**, with **$286,397** profit across **37,873** units of products.
 * Consumer Segment dominates sales, making up over 50% of transactions.
 * The West Region leads in performance with sales exceeding $725K.
 * New York City is the top-performing city, contributing over $256K in sales.
