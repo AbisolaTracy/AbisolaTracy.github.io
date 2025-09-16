@@ -3,9 +3,13 @@
 
 **Title:** [Workforce Analysis](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Workforce%20Analysis.xlsx)
 
-**Tools Used:** Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Conditional Formatting,  Power Query Editor) 
+**Tools Used:** 
 
-**Project Description:** This project contains an interactive Excel dashboard designed to analyze workforce metrics. The goal of this project is to transform raw datasets into visually appealing and insightful reports that help businesses make data-driven decisions. The project also helps HR teams understand employee demographics, salary trends, and workforce distribution to support strategic decision-making. project's dashboard is designed with a clear structure, incorporating slicers, filters, and dynamic visuals to allow for easy exploration of key performance indicators (KPIs).
+Microsoft Excel (Pivot Tables, Pivot Charts, Slicers, Conditional Formatting,  Power Query Editor) 
+
+**Project Description:** 
+
+This project contains an interactive Excel dashboard designed to analyze workforce metrics. The goal of this project is to transform raw datasets into visually appealing and insightful reports that help businesses make data-driven decisions. The project also helps HR teams understand employee demographics, salary trends, and workforce distribution to support strategic decision-making. project's dashboard is designed with a clear structure, incorporating slicers, filters, and dynamic visuals to allow for easy exploration of key performance indicators (KPIs).
 
 **Key Findings:** 
 * Total Employees: Displays an overview of 10,000 employees spread across 5 locations and 6 departments, aiding workforce planning.
@@ -15,7 +19,9 @@
 * Experience Level: Most employees have **0–4 years of experience**, suggesting recent organizational growth.
 * Job Title Analysis: Majority of employees are Managers, followed by Analysts and Executives.
   
-**Dashboard Overview:** The Workforce Dashboard provides a comprehensive overview of employee demographics, salary distribution, and departmental performance across multiple locations. This dashboard helps HR teams and management track employee data and optimize workforce planning.
+**Dashboard Overview:** 
+
+The Workforce Dashboard provides a comprehensive overview of employee demographics, salary distribution, and departmental performance across multiple locations. This dashboard helps HR teams and management track employee data and optimize workforce planning.
 
 ![Workforce](Workforce.png)
 
@@ -24,9 +30,12 @@
 
 **Title:** [Vrinda Sales Dashboard](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Vrinda%20Store%20Sales.xlsx)
 
-**Project Description:** This project provides insights into order trends, revenue performance, and customer behavior across states and sales channels. The project enables stakeholders to track business performance and identify opportunities to increase revenue. By combining data analytics, visualization, and design, this project showcase skills that are valuable for roles in data analytics, business intelligence, and reporting.
+**Project Description:** 
+
+This project provides insights into order trends, revenue performance, and customer behavior across states and sales channels. The project enables stakeholders to track business performance and identify opportunities to increase revenue. By combining data analytics, visualization, and design, this project showcase skills that are valuable for roles in data analytics, business intelligence, and reporting.
 
 **Key Insights:**
+
 * Total Revenue: Highlighted a total revenue of **₹21,441,209** in which female customers contribute **₹13,756,251,** significantly higher than male customers at **₹7,684,958**.
 * Monthly Trends: Analyzed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly. Peak revenue recorded in March, with a gradual decline toward the end of the year. 
 * Top Performing States: Identified the most profitable state and highlighted underperforming states where performance could be improved
@@ -46,7 +55,9 @@
 * Horizontal bar charts for top 5 states with highest sales and orders by channel.
 * Slicers for interactive filtering by date, month, category, and channel.
   
-**Dashboard Overview:** This dashboard enables stakeholders to track revenue performance, customer behavior, and operational efficiency. The dashboard demonstrate the power of Excel in converting raw data into actionable insights. It is designed for sales teams and business managers to monitor revenue trends and improve performance strategies. 
+**Dashboard Overview:** 
+
+This dashboard enables stakeholders to track revenue performance, customer behavior, and operational efficiency. The dashboard demonstrate the power of Excel in converting raw data into actionable insights. It is designed for sales teams and business managers to monitor revenue trends and improve performance strategies. 
 
 
 ![Vrinda](Vrinda.png) 
@@ -66,7 +77,9 @@
 * Slicers: For filtering by attributes such as type, genre, rating and title
 * Custom Formatting: Netflix-themed black & red branding
   
-**Project Description:** The goal of this Netflix Insight project was to uncover patterns in Netflix’s catalog, including the distribution of movies and TV shows, the dominance of different genres, the role of producing countries, and the maturity ratings of content. By transforming a large dataset of Netflix titles into an interactive, single-page dashboard, the project provides a clear and engaging way to understand how Netflix curates its global library.
+**Project Description:** 
+
+The goal of this Netflix Insight project was to uncover patterns in Netflix’s catalog, including the distribution of movies and TV shows, the dominance of different genres, the role of producing countries, and the maturity ratings of content. By transforming a large dataset of Netflix titles into an interactive, single-page dashboard, the project provides a clear and engaging way to understand how Netflix curates its global library.
 
 The dashboard was designed with a **black-and-red Netflix theme** to capture the brand’s identity while presenting the data in a structured, visually appealing format. Easy to scan KPIs, filter by type or genre, and explore content distribution trends to gain actionable insights.
 
@@ -81,7 +94,9 @@ The dashboard was designed with a **black-and-red Netflix theme** to capture the
 **Data Source:** Kaggle
 The dataset contains details of Netflix’s catalog, including titles, genres, directors, release years, ratings, and countries.
   
-**Dashboard Overview:** The Netflix Dashboard combines Netflix’s catalog into a single, interactive Excel report. The dashboard displays headline KPIs such as total titles, directors, movies, and TV shows. Charts break down content by genre, rating, and producing country etc., making it easy to see which areas dominate the platform. A pie chart highlights the clear turn towards movies over TV shows, while horizontal and vertical bar charts show the most common genres and top producing countries. Finally, trend analysis captures how Netflix’s library has evolved over time, helping users see when most content was added.
+**Dashboard Overview:** 
+
+The Netflix Dashboard combines Netflix’s catalog into a single, interactive Excel report. The dashboard displays headline KPIs such as total titles, directors, movies, and TV shows. Charts break down content by genre, rating, and producing country etc., making it easy to see which areas dominate the platform. A pie chart highlights the clear turn towards movies over TV shows, while horizontal and vertical bar charts show the most common genres and top producing countries. Finally, trend analysis captures how Netflix’s library has evolved over time, helping users see when most content was added.
 
 ![Netflix](Netflix.png)
 
@@ -95,7 +110,9 @@ The dataset contains details of Netflix’s catalog, including titles, genres, d
 * Excel Slicers & Filters: For interactivity and dynamic exploration
 * Conditional Formatting: To highlight key KPIs
 
-**Project Description:** The Superstore Sales Dashboard is a data visualization project built in Microsoft Excel to provide a clear, interactive view of retail sales performance. The dashboard was designed to help business users quickly identify trends, monitor key metrics, and make data-driven decisions. The dataset includes thousands of transactions across customers, products, categories, segments, and regions. Using pivot tables, slicers, and charts, the data was transformed into an interactive reporting tool that allows users to filter, drill down, and explore performance from different perspectives.
+**Project Description:** 
+
+The Superstore Sales Dashboard is a data visualization project built in Microsoft Excel to provide a clear, interactive view of retail sales performance. The dashboard was designed to help business users quickly identify trends, monitor key metrics, and make data-driven decisions. The dataset includes thousands of transactions across customers, products, categories, segments, and regions. Using pivot tables, slicers, and charts, the data was transformed into an interactive reporting tool that allows users to filter, drill down, and explore performance from different perspectives.
 
 The dashboard focuses on answering critical business questions such as:
 * Which customer segment is the most profitable?
@@ -112,7 +129,9 @@ The dashboard focuses on answering critical business questions such as:
 * Standard Class shipping is the most used shipping mode.
 * Technology products are the highest revenue driver across categories.
 
-**Dashboard Features:** KPIs at a glance: Total Sales, Total Quantity, Total Profit, Top Segment, Top Region.
+**Dashboard Features:** 
+
+* KPIs at a glance: Total Sales, Total Quantity, Total Profit, Top Segment, Top Region.
 * Sales Leaders by Customer (Top 10)
 * Customer Segmentation (Consumer, Corporate, Home Office)
 * Revenue Trends by Month
@@ -156,7 +175,7 @@ Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant da
 
 **SQL Skills Used:** 
 
-This project showcases a wide range of SQL skills such as:
+The project showcases a wide range of SQL skills such as:
 * Basic SELECT queries: Retrieving columns with aliases and conditions.
 * Filtering with WHERE: Using operators, ranges (BETWEEN), and comparisons.
 * JOIN operations: Combining data across multiple tables (INNER JOIN, LEFT JOIN).
