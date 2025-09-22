@@ -218,18 +218,71 @@ This project simulates the kind of SQL problem-solving needed in business intell
 
 
 # Project 7:
-**Title:** []()
-**Tools Used:** 
-**Project Description:** 
-**Key Findings:** 
-**Dashboard Overview:** 
-![]()
 
-# Project 7:
-**Title:** []()
-**Tools Used:** 
-**Project Description:** 
-**Key Findings:** 
-**Dashboard Overview:** 
-![]()
+**Title:** [Global Sales](https://github.com/AbisolaTracy/AbisolaTracy.github.io/blob/main/Global%20Sales%20PROJECT%201.pbix)
 
+**Tools & Technology Used:** 
+* Power BI: For data visualization and dashboard creation
+* Microsoft Excel: Data extraction, data cleaning and preprocessing
+* DAX (Data Analysis Expressions): For calculated column (Total Quantity Ordered Per Month)
+* Power Query: Data cleaning
+
+**Project Description:** 
+
+This project provides a comprehensive analysis of the Global Superstore's sales performance for the year 2023. It aims to uncover actionable insights through interactive visualizations that break down profits, revenue, order patterns, and customer behavior across regions and time.
+
+The primary focus of this dashboard is to support data-driven decision-making by management and stakeholders. It can be used to identify top-performing markets, monitor logistics efficiency, and optimize inventory and marketing strategies.
+
+**Key Findings & Business Value:** 
+
+* Shipping Strategy Optimization: With 60% of all orders shipped via Standard Class, there's an opportunity to optimize logistics cost and renegotiate vendor contracts for higher volume shipments.
+* Market Prioritization: Cities like New York City and Los Angeles are driving a significant portion of total sales, indicating where marketing and inventory resources should be prioritized.
+* Decline in Order Volume: The "Total Quantity Ordered Per Month" chart shows a steady decline over time, signaling a potential demand dip or seasonal pattern. Investigating the root causes could help boost customer retention and seasonal campaign planning.
+* Diversifying Shipping Modes: A low share of orders using **Same Day** shipping (only 5.27%) could indicate logistical constraints or untapped customer segments. Exploring partnerships or infrastructure improvements could enhance customer satisfaction and drive repeat purchases.
+* Strong Revenue-Profit Ratio: The business is maintaining a healthy profit margin, which is a strong sign of operational efficiency. This allows room for scaling operations or reinvesting in marketing.
+  
+**Dashboard Overview:** 
+* Top KPIs at a Glance:
+* Total Profit, Total Revenue, Order Count, and Total Quantity are displayed in large, easy-to-read figures for executive overview.
+* Sales Distribution by Ship Mode: A pie chart illustrates the distribution of orders by shipping mode, offering quick insights into customer preferences and delivery channel usage.
+* Geographic Sales Insights: A bar chart highlighting top-performing cities helps identify strong markets and potential areas for expansion.
+* Time Series Analysis: A trend line showing "Total Quantity Ordered Per Month" allows users to track performance fluctuations and plan demand forecasting.
+* Sub-Category Filter: Interactive checkboxes for filtering sales performance by sub-category give users deeper drill-down capabilities.
+  
+![Global](Global.png)
+
+# Project 8:
+
+**Title:** HR Insight
+
+**Tools & Technology Used:** 
+* Power BI: For building interactive, dynamic visualizations.
+* DAX (Data Analysis Expressions): To create custom KPIs and dynamic measures
+* Microsoft Excel: Data extraction, data cleaning and preprocessing
+* Power Query: Data cleaning
+
+**Project Description:** 
+
+The HR Dashboard is a comprehensive data visualization solution built to monitor and evaluate the overall human resource landscape of a company. It provides key HR metrics including workforce composition, promotion eligibility, service tenure, and geographical proximity of employees to their workplace.
+
+The goal of this project is to enable HR leaders and decision-makers to proactively manage the workforce, support data-driven strategies for retention, promotion, and retrenchment, and enhance employee satisfaction through evidence-based policy improvements.
+
+**Key Findings:** 
+
+* Employee Growth Visibility: Only 4.90% of employees are due for promotion, indicating a stable workforce but also highlighting the need to review career progression pathways to avoid future stagnation.
+* Service Tenure Insights: A large portion of employees have 10+ years of service, which signals organizational loyalty, but may also call for succession planning and potential upskilling programs to ensure ongoing performance and innovation.
+* Retrenchment Watchlist: 8% of employees are marked for next retrenchment, offering HR teams a window to review performance, redeployment, or upskilling options to reduce attrition costs and maintain morale.
+* Proximity Analysis: A significant number of employees (63.95%) live very close to the office, which can boost productivity, reduce absenteeism, and improve work-life balance. The organization could further explore remote or hybrid options for those living far away to enhance retention.
+* Gender Diversity: With a 60/40 male-to-female split, the company maintains moderate gender diversity. This metric can be tracked over time to support diversity, equity, and inclusion (DEI) initiatives.
+* Workforce Activity Levels: 92% of employees are currently active, showcasing a high engagement rate. However, tracking this metric over time can help spot early signs of disengagement.
+* Job Level Distribution: The majority of employees are clustered in Levels 1 and 2, suggesting a large operational or junior workforce. This insight supports decisions related to training, leadership development, and succession planning.
+  
+**Dashboard Overview:** 
+* Top-Level Metrics:
+* Total Employees, Gender Distribution, Promotion Eligibility, Active Workers, and Retrenchment Risk.
+* Tenure Analysis: Horizontal bar chart showing employee distribution by years of service.
+* Job Levels Breakdown: Bar chart that visualizes the hierarchy across job levels (Level 1 to Level 5).
+* Proximity to Workplace: Donut chart categorizing employee distance from office: Very Close, Close, and Very Far.
+* Navigation Panel: Left-side menu to switch between different dashboard views: Home, Action, and Detail for a deeper dive.
+
+![HR](HR.png)
