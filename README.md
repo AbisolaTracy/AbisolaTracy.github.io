@@ -216,39 +216,20 @@ This project simulates the kind of SQL problem-solving needed in business intell
 * Language: SQL (Structured Query Language)
 * Schema: Sales Management Schema with 3 main tables: salesman, customer, and orders
 
+
 # Project 7:
-**Title:** Workplace Safety - Data Manipulation Interrogation
-
-**SQL Code:** 
-**SQL Skills Used:** 
-
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
-
-Data Aggregation (SUM, COUNT, AVERAGE): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-
-Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-
+**Title:** []()
+**Tools Used:** 
 **Project Description:** 
+**Key Findings:** 
+**Dashboard Overview:** 
+![]()
 
-**Technology Used:** 
-
-
-# Project 8:
-**Title:** 
-**SQL Code:** 
-**SQL Skills Used:** 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
-
-Data Aggregation (SUM, COUNT, AVERAGE): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-
-Data Filtering: (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-
+# Project 7:
+**Title:** []()
+**Tools Used:** 
 **Project Description:** 
-
-**Technology Used:** 
-
+**Key Findings:** 
+**Dashboard Overview:** 
+![]()
 
